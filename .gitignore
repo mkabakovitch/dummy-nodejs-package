@@ -1,0 +1,10 @@
+# Build
+node_modules/
+dist/
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Other
+.DS_Store

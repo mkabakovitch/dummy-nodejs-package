@@ -1,0 +1,52 @@
+{
+  "name": "@mkabakovitch/dummy-package",
+  "version": "1.0.13",
+  "description": "Dummy package",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkabakovitch/dummy-package.git"
+  },
+  "keywords": [
+    "dummy",
+    "package"
+  ],
+  "author": "Michail Kabakovitch <michail.kabakovitch@mkabakovitch.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mkabakovitch/dummy-package/issues"
+  },
+  "homepage": "https://mkabakovitch.github.io/dummy-package",
+  "engines": {
+    "node": "^20"
+  },
+  "type": "commonjs",
+  "files": [
+    "./dist/dummy.js",
+    "./dist/mathematic.js"
+  ],
+  "exports": {
+    ".": "./dist/dummy.js",
+    "./mathematic": "./dist/mathematic.js",
+    "./dummy": "./dist/dummy.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7",
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "jest": "^29",
+    "ncp": "^2",
+    "rimraf": "^5",
+    "vitepress": "^1.0.0-rc.44"
+  },
+  "scripts": {
+    "clean": "rimraf dist node_modules",
+    "prebuild": "npm run clean",
+    "build": "babel ./src -d ./dist",
+    "pretest": "npm run build",
+    "test": "jest",
+    "docs:clean": "rimraf docs/dist",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
