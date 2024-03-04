@@ -39,6 +39,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mkabakovitch/dummy-package' }
     ],
+    editLink: {
+      pattern: 'https://github.com/mkabakovitch/dummy-package/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },    
     footer: {
       message: 'This is public information, feel free to use it.',
       copyright: 'Copyright © 2024 Michail Kabakovitch'
