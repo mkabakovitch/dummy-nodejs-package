@@ -47,7 +47,7 @@ The `docs` folder contains project documentation, both development and end-user.
 
 For this package the source code is placed into ```/src``` folder. The reason for that is to provide logical separation between the busibess functionality of the package and development infrastructure like testing and documentation. 
 
-::: tip **/src** folder
+::: warning However...
 Other projects, especially built with [CAP](https://cap.cloud.sap/docs/) may (and even [should](https://cap.cloud.sap/docs/get-started/jumpstart#minimal-configuration)) not use ```/src``` folder for the source code. Instead, the root folder of the source code is the the root folder of the repository.
 :::
 
