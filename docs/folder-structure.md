@@ -10,7 +10,7 @@ In order to separate the source code, unit tests, documentation, the following f
 │     └─ publish-github-pages.yml
 ├─ docs
 │  └─ .vitepress
-│  │  └─ theme
+│  │  ├─ theme
 │  │  │ ├─ index.js
 │  │  │ └─ style.css
 │  │  └─ config.mjs
