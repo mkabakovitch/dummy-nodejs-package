@@ -1,7 +1,7 @@
 {
   "name": "@mkabakovitch/dummy-package",
   "version": "1.0.13",
-  "description": "Dummy package",
+  "description": "Dummy Node.js package",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mkabakovitch/dummy-package.git"
@@ -13,9 +13,9 @@
   "author": "Michail Kabakovitch <michail.kabakovitch@mkabakovitch.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/mkabakovitch/dummy-package/issues"
+    "url": "https://github.com/mkabakovitch/dummy-nodejs-package/issues"
   },
-  "homepage": "https://mkabakovitch.github.io/dummy-package",
+  "homepage": "https://mkabakovitch.github.io/dummy-nodejs-package",
   "engines": {
     "node": "^20"
   },

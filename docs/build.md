@@ -9,7 +9,7 @@ If the code is in still JavaScipt, but uses some features which may not be suppo
 {
   "name": "@mkabakovitch/dummy-package",
   "version": "1.0.10",
-  "description": "Dummy package",
+  "description": "Dummy Node.js package",
   ...
   "devDependencies": {
     ...

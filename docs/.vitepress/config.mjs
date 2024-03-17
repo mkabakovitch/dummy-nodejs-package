@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Dummy Package",
-  description: "Dummy package for playing with GitHub workflows",
+  title: "Dummy Node.js Package",
+  description: "Dummy Node.js package for playing with GitHub workflows",
   base: "/dummy-package/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -37,10 +37,10 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mkabakovitch/dummy-package' }
+      { icon: 'github', link: 'https://github.com/mkabakovitch/dummy-nodejs-package' }
     ],
     editLink: {
-      pattern: 'https://github.com/mkabakovitch/dummy-package/edit/main/docs/:path',
+      pattern: 'https://github.com/mkabakovitch/dummy-nodejs-package/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     footer: {

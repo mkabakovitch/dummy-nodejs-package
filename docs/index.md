@@ -9,7 +9,7 @@ hero:
   image: /assets/logos/npm.svg  
   actions:
     - theme: brand
-      text: Get Started with Dummy Package
+      text: Get Started with Dummy Node.js Package
       link: /about
     - theme: alt
       text: Go to Dummy CAP Service
