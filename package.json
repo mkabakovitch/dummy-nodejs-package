@@ -21,13 +21,13 @@
   },
   "type": "commonjs",
   "files": [
-    "./dist/dummy.js",
+    "./dist/greeter.js",
     "./dist/mathematic.js"
   ],
   "exports": {
-    ".": "./dist/dummy.js",
+    ".": "./dist/greeter.js",
     "./mathematic": "./dist/mathematic.js",
-    "./dummy": "./dist/dummy.js"
+    "./greeter": "./dist/greeter.js"
   },
   "devDependencies": {
     "@babel/cli": "^7",
@@ -36,7 +36,7 @@
     "jest": "^29",
     "ncp": "^2",
     "rimraf": "^5",
-    "vitepress": "^1.0.0-rc.44"
+    "vitepress": "^1.0.0-rc.45"
   },
   "scripts": {
     "clean": "rimraf dist node_modules",

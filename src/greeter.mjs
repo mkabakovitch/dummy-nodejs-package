@@ -2,10 +2,10 @@
 
 const greeting = "Hello";
 
-class Dummy {
+class Greeter {
   greet(person) {
     return `${greeting} ${person}!`;
   };
 }
 
-export { greeting, Dummy }
+export { greeting, Greeter }
