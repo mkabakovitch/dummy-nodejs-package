@@ -12,8 +12,8 @@ hero:
       text: Get Started with Dummy Package
       link: /about
     - theme: alt
-      text: Go to Dummy Application
-      link: https://mkabakovitch.github.io/dummy-application
+      text: Go to Dummy CAP Service
+      link: https://mkabakovitch.github.io/dummy-cap-service
 
 features:
   - title: Configuration

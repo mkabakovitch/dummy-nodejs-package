@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Dummy Application', link: 'https://mkabakovitch.github.io/dummy-application' }
+      { text: 'Dummy CAP Service', link: 'https://mkabakovitch.github.io/dummy-cap-service' }
     ],
     sidebar: [
       {
@@ -42,7 +42,7 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/mkabakovitch/dummy-package/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
-    },    
+    },
     footer: {
       message: 'This is public information, feel free to use it.',
       copyright: 'Copyright © 2024 Michail Kabakovitch'
