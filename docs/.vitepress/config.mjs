@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Dummy Node.js Package",
   description: "Dummy Node.js package for playing with GitHub workflows",
-  base: "/dummy-package/",
+  base: "/dummy-nodejs-package/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
