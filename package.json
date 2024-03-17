@@ -40,7 +40,6 @@
   },
   "scripts": {
     "clean": "rimraf dist node_modules",
-    "prebuild": "npm run clean",
     "build": "babel ./src -d ./dist",
     "pretest": "npm run build",
     "test": "jest",
