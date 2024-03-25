@@ -4,7 +4,7 @@
   "description": "Dummy Node.js package",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkabakovitch/dummy-package.git"
+    "url": "git+https://github.com/mkabakovitch/dummy-nodejs-package.git"
   },
   "keywords": [
     "dummy",
