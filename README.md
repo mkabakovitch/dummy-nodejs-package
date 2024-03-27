@@ -1,4 +1,4 @@
-# Dummy Package
+# Dummy Node.js Package
 
 > [!WARNING]
 > The package is still under development!
