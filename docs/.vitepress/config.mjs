@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Dummy CAP Service', link: 'https://mkabakovitch.github.io/dummy-cap-service' }
+      { text: 'Michail Kabakovitch', link: 'https://mkabakovitch.github.io/' }
     ],
     sidebar: [
       {
