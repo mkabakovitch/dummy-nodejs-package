@@ -11,4 +11,4 @@ This is an example of a simple Node.js package repository explaining:
 - GitHub action for publishing package to GitHib Packages when new release is created
 - Shell script for publishing package to GitHib Packages manually
 
-See it on [GitHub Pages](mkabakovitch.github.io/dummy-nodejs-package).
+See it on [GitHub Pages](https://mkabakovitch.github.io/dummy-nodejs-package/).
