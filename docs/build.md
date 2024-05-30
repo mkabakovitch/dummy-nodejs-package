@@ -7,6 +7,7 @@ To illustrate the build step, and keep things simple, this package contains two 
 In a real world projects you might want not only to translipe, but also to bundle your modules bringing the code you write and all dependencies alltogether using a bundler, such as [Webpack](https://webpack.js.org/) or [Parcel](https://parceljs.org/). The ```Greeter``` and the ```Mathematics``` modules have no dependencies, so transpiling with Babel is all we need.
 
 ::: code-group
+
 ```json{8-10,15} [package.json]
 {
   "name": "@mkabakovitch/dummy",
@@ -27,6 +28,7 @@ In a real world projects you might want not only to translipe, but also to bundl
   }
 }
 ```
+
 ```json [babel.config.json]
 {
   "presets": [
@@ -42,6 +44,7 @@ In a real world projects you might want not only to translipe, but also to bundl
   "plugins": []
 }
 ```
+
 :::
 
 Actual build process involves not only transpiling source files, but also cleaning up artefacts from previous builds before starting a new build. This is done in the ```prebuild``` script, which is called by __npm__ automatically before executing the ```build``` script:

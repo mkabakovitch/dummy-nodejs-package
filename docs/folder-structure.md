@@ -2,7 +2,7 @@
 
 In order to separate the source code, unit tests, documentation, the following folder structure is used:
 
-```
+```text
 .
 ├─ .github
 │  └─ workflows
@@ -38,14 +38,13 @@ In order to separate the source code, unit tests, documentation, the following f
 
 The `.github/workflows` folder contains workflows for building and publishing the content of the `docs` folder to [GitHub Pages](./github-pages.md) and publishing package to [GitHub Packages](./github-packages.md).
 
-
 ## docs Folder
 
 The `docs` folder contains project documentation, both development and end-user. This is also the source for the [GitHub Pages](./github-pages) site.
 
 ## src Folder
 
-For this package the source code is placed into `/src` folder. The reason for that is to provide logical separation between the busibess functionality of the package and development infrastructure like testing and documentation. 
+For this package the source code is placed into `/src` folder. The reason for that is to provide logical separation between the busibess functionality of the package and development infrastructure like testing and documentation.
 
 ::: warning However...
 Other projects, especially built with [CAP](https://cap.cloud.sap/docs/) may (and even [should](https://cap.cloud.sap/docs/get-started/jumpstart#minimal-configuration)) not use `/src` folder for the source code. Instead, you place the source code directly in the root folder of the repository.

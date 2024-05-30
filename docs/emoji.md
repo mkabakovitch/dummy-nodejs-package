@@ -13,5 +13,3 @@ The `ìndex.md` file resembles a YAML file more than a markdown file, and encodi
 ::: tip
 On Windows you can use insert emojis by pressing `Windows` + `.` (period) key combination to open emoji panel. On Mac press `Control` + `Command` + `Space` key combination.
 :::
-
-
