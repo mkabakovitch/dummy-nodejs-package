@@ -17,7 +17,7 @@
   },
   "homepage": "https://mkabakovitch.github.io/dummy-nodejs-package",
   "engines": {
-    "node": "18"
+    "node": "20"
   },
   "type": "commonjs",
   "files": [
