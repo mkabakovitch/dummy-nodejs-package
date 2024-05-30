@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Dummy Package"
   text: "Simple and clean template for a Node.js package"
-  tagline: Learn how to building a simple Node.js package with CommonJS or ES modules, transpiling source code, publishing build output to ***GitHub Packages*** and providing project documentation with ***GitHub Pages***.
+  tagline: Learn how to building a simple Node.js package with CommonJS or ES modules, transpiling source code, publishing build output to GitHub Packages and providing project documentation with GitHub Pages.
   image: /assets/logos/npm.svg  
   actions:
     - theme: brand
